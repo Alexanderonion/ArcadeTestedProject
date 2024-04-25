@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4335885231937647121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8971094822377334716}
+  - component: {fileID: 3164377928507307441}
+  m_Layer: 0
+  m_Name: Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8971094822377334716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4335885231937647121}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3164377928507307441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4335885231937647121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f4ee35d8bb283488fbf2ee09d60295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pearTreePrefab: {fileID: 5279326779853875471, guid: 0b6b4d116d7809340bbd37bdcad8c6c3, type: 3}
+  _appleTreePrefab: {fileID: 8072693137409849786, guid: 56badf47c363eb641bdbb26bb2280301, type: 3}
+  _goldMinePrefab: {fileID: 10756675618500311, guid: ddbfb5811a6fdf9489faa28c5919ca1c, type: 3}
+  _earthPilePrefab: {fileID: 4944070770258720428, guid: 32d01db120420824098eca851e3d82cf, type: 3}
+  _pearPrefab: {fileID: 907939387280486264, guid: 10e23a93d1ac0a5408b76d96209b2c7b, type: 3}
+  _applePrefab: {fileID: 907939387280486264, guid: 6ff6671b7e537d8459e2c6f977cbf627, type: 3}
+  _goldPrefab: {fileID: 907939387280486264, guid: e27c0f07aa48561439637c03b4fb5eec, type: 3}
+  _clayPrefab: {fileID: 907939387280486264, guid: 1eb838393b3429445a90ffb19ede74ce, type: 3}
+  _pearJuicePrefab: {fileID: 6124990976197121649, guid: 70766ef6580ade048b3390ad0546008b, type: 3}
+  _appleJuicePrefab: {fileID: 8651198973678717976, guid: 63f030f81a717de42b0b6fb99886adad, type: 3}
+  _goldBarPrefab: {fileID: 4841823573073892130, guid: efaffb60bf5399f419bee640561f1bba, type: 3}
+  _brickPrefab: {fileID: 1302569933613669847, guid: 4d854fcf539b62f4d887bf0ddbba9a4b, type: 3}
+  _productionAppleJuiceBuildingPrefab: {fileID: 5774193413623066172, guid: 4bc956f801cff6642b55463640f8c25d, type: 3}
+  _productionPearJuiceBuildingPrefab: {fileID: -958558223945589636, guid: bb59cda413cf21f43aa7d4706db17657, type: 3}
+  _productionGoldBarBuildingPrefab: {fileID: -6616950140466778470, guid: 7cc59bf44398a454385cf852eba473a1, type: 3}
+  _productionBrickBuildingPrefab: {fileID: -609260217048627002, guid: 01528a184ebb58544873bdb162763010, type: 3}
+  _shopBuildingPrefab: {fileID: -5433149248258266734, guid: 39382cc032db14648962981a4d1401a6, type: 3}
